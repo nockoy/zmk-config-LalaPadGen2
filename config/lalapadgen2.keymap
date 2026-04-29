@@ -59,15 +59,6 @@
         };
     };
 
-    macros {
-        tab_left: tab_left {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_COMMAND &kp LEFT_ALT &kp LEFT_ARROW>;
-            label = "TAB_LEFT";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -112,13 +103,13 @@
         LAYER_3 {
             display-name = "tertiary_layer";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT                            &kp PAGE_UP  &tab_left  &kp UP_ARROW    &kp LA(RIGHT_ARROW)  &kp LG(T)
-&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp LG(R)    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT            &kp LG(W)
-&kp GRAVE        &kp SQT        &kp SEMI      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &trans       &mkp MB4   &trans          &mkp MB5             &kp LG(LS(T))
-&trans           &trans         &trans        &trans                &trans                 &trans  &trans  &trans       &trans     &trans          &trans               &trans
-                 &trans         &trans        &trans                &trans                 &trans  &trans  &trans       &trans     &trans          &trans
-&trans           &trans         &trans                                                                                             &trans          &trans               &trans
-&trans           &trans         &trans        &trans                &trans                                 &trans       &trans     &trans          &trans               &trans
+&kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT                            &kp PAGE_UP  &kp LG(LA(LEFT_ARROW))  &kp UP_ARROW    &kp LA(LG(RIGHT_ARROW))  &kp LG(T)
+&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp LG(R)    &kp LEFT                &kp DOWN_ARROW  &kp RIGHT                &kp LG(W)
+&kp GRAVE        &kp SQT        &kp SEMI      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &trans       &mkp MB4                &trans          &mkp MB5                 &kp LG(LS(T))
+&trans           &trans         &trans        &trans                &trans                 &trans  &trans  &trans       &trans                  &trans          &trans                   &trans
+                 &trans         &trans        &trans                &trans                 &trans  &trans  &trans       &trans                  &trans          &trans
+&trans           &trans         &trans                                                                                                          &trans          &trans                   &trans
+&trans           &trans         &trans        &trans                &trans                                 &trans       &trans                  &trans          &trans                   &trans
             >;
         };
 
