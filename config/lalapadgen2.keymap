@@ -76,7 +76,7 @@
         };
 
         LAYER_1 {
-            display-name = "secondary_layer";
+            display-name = "layer_1";
             bindings = <
 &kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4  &kp N5                    &kp KP_NUMLOCK    &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
 &kp NUMBER_6      &kp N7             &kp N8        &kp N9        &kp N0                    &trans            &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
@@ -101,7 +101,7 @@
         };
 
         LAYER_3 {
-            display-name = "tertiary_layer";
+            display-name = "layer_3";
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT                            &kp PAGE_UP  &kp LG(LA(LEFT_ARROW))  &kp UP_ARROW    &kp LA(LG(RIGHT_ARROW))  &kp LG(T)
 &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp LG(R)    &kp LEFT                &kp DOWN_ARROW  &kp RIGHT                &kp LG(W)
@@ -143,8 +143,8 @@
         compatible = "zmk,conditional-layers";
 
         Cond_Syslayer {
-            if-layers = <1 3>;
-            then-layer = <2>;
+            if-layers = <2 3>;
+            then-layer = <5>;
         };
     };
 };
