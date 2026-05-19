@@ -68,7 +68,7 @@
 &kp Q             &kp W         &kp E             &kp R           &kp T                                                    &kp Y                &kp U               &kp I             &kp O             &kp P
 &kp A             &kp S         &kp D             &kp F           &kp G                                                    &kp H                &kp J               &kp K             &kp L             &kp ENTER
 &kp Z             &kp X         &kp C             &kp V           &kp B                                                    &kp N                &kp M               &kp COMMA         &kp PERIOD        &kp BACKSPACE
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL         &kp LEFT_SHIFT  &lt 2 LANG2  &mt LEFT_SHIFT LC(UP_ARROW)  &kp LG(LANG1)  &lt 3 LANG1          &lt 4 SPACE         &kp MINUS         &kp PLUS          &kp DELETE
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL         &kp LEFT_SHIFT  &lt 2 LANG2  &mt LEFT_SHIFT LC(UP_ARROW)  &kp LG(LANG1)  &lt 3 LANG1          &lt 4 SPACE         &kp DELETE        &kp PLUS          &kp MINUS
                   &none         &kp RIGHT         &kp DOWN        &kp LEFT     &kp UP                       &kp UP         &mkp MB4             &kp DOWN            &mkp MB5          &none
 &mkp LCLK         &mkp RCLK     &mkp MCLK                                                                                                                           &mkp LCLK         &mkp RCLK         &mkp MCLK
 &mkp MB5          &mkp MB4      &kp LC(UP_ARROW)  &kp LG(M)       &kp LCTRL                                                &kp LC(RIGHT_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(UP_ARROW)  &kp LCTRL
